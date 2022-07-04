@@ -82,7 +82,7 @@ const index = (results:any) => {
       </Box>
 
       <footer className={Styles.footer}>
-        Powered by Energy Drinks 🥫 and YouTube Subscribers.
+        Powered by STaili abdessalam didikasse l meknes hh.
       </footer>
     </Flex>
   );
