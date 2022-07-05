@@ -1,0 +1,47 @@
+.div {
+  height: 100px;
+}
+
+.form {
+  position: fixed;
+  top: 14%;
+  right: 3%;
+}
+.footer {
+  position: fixed;
+  background-color: aliceblue;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.li {
+  color: black;
+  list-style: none;
+  font-weight: 400px;
+  font-size: larger;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-inline: 10px;
+  border-bottom: 1px solid aliceblue;
+}
+.li:hover {
+    border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    transition: ease-in-out;
+    transition-duration: 12ms;
+    border-bottom: 2px solid black;
+  font-weight: 600px;
+  cursor: pointer;
+  padding-inline: 10px;
+  
+}
